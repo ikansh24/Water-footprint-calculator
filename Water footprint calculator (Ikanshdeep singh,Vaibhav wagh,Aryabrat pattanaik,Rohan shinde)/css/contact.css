@@ -1,0 +1,66 @@
+/* General styles */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fcd9ca;
+}
+
+/* Header styles */
+
+header {
+  background-color: #f79368;
+  color: black;
+  padding: 10px;
+  text-align: center;;
+}
+
+header h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* Contact form styles */
+
+.contact-form {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.contact-form form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffebe3;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  height: 100px;
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

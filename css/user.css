@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+body{
+    background-color:lightblue;
+}
+
+.container{
+    margin:10px 10px;
+    width:800px;
+}
+.container1{
+    margin:10px 10px;
+    width:400px;
+}
+.carousel{
+    border:2px solid antiquewhite;
+    height: 600px;
+    border-radius:8px;
+    position:relative;
+    overflow: hidden; 
+    top:60px;
+    left:300px;
+    box-shadow:5px 5px grey;
+    background-color: antiquewhite;
+}
+.slider{
+    height:100%;
+    display:flex;
+    width:500%;
+    /* border:1px solid black; */
+    transition: all .0.3s;
+    
+
+}
+.slider section{
+    padding-top: 30px;
+    flex-basis:100%;
+    display: flex;
+    padding-left: 80px;
+}
+.controls .arrow{
+        position:absolute;
+        top: 50%;
+        transform:translateY(-50%);
+        cursor: pointer;
+}
+.controls .arrow i{
+    font-size: 60px;
+}
+.arrow.left{
+    left:10px;
+}
+.arrow.right{
+    right:10px;
+}
+.controls ul{
+    position: relative;
+    bottom: 20px;
+    left:50%;
+    transform:translate(-50%);
+    list-style:none;
+    display:flex;
+    padding-top:20px;
+    top:-1600px;
+} 
+.controls ul li{
+    width:4px;
+    height:4px;
+    border:2px solid black;
+    border-radius:50px;
+    margin:10px;
+    background-color: black;
+    cursor: pointer;
+}
+.controls ul li.selected{
+    background-color: transparent;
+}
+#question123{
+    font-size:20px;
+}
+#question456{
+    font-size:20px;
+}
+#question789{
+    font-size:20px;
+}
+#question101112{
+    font-size:20px;
+}
+#question131415{
+    font-size:20px;
+}
+h1{
+    text-shadow: 4px 4px 4px grey;
+    font-size:48px;
+    text-align: center;
+    position:relative;
+    top:30px;
+    left:-10px;
+    font-family: fantasy;
+    color:palegoldenrod;
+}
+#para1{
+    text-align:center;
+    padding-left:90px;
+    position:relative;
+    top:30px;
+    font-size: 26px;
+    left:-40px;
+    color:dodgerblue;
+}
+#btn button{
+    margin-top:15px;
+    margin-left:500px;
+    background-color:lightblue;
+    color:white;
+    font-size:20px;
+    padding:7px;
+    border-radius:15px;
+}
+#btn a{
+    text-decoration:none;
+}
+a:link{
+    color:white;
+}
+a:hover{
+    color: chocolate;
+}
+#lastpara{
+    text-align: justify;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+  }

@@ -1,0 +1,78 @@
+/* General styles */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* About section styles */
+
+.about-us {
+  background-color: lightblue;
+  padding: 50px 0;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about .text {
+  width: 80%;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.about .container {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fcd9ca;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about .container p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.about .data {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about .data a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.heading
+{
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+}
